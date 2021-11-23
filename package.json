@@ -1,0 +1,22 @@
+{
+  "name": "brewdogs",
+  "version": "1.0.0",
+  "description": "React Brewdogs DEMO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcrackel/BrewDogs.git"
+  },
+  "author": "Dwain Crackel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dcrackel/BrewDogs/issues"
+  },
+  "homepage": "https://github.com/dcrackel/BrewDogs#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
