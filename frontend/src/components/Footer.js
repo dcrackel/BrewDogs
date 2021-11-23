@@ -6,11 +6,13 @@ const Footer = () => {
         <footer>
             <Container className="footersignupcontainer">
                 <Container className="containersignuptext">
-                    <Typography className="footersignuptext" variant="body2" color="textSecondary">SIGN UP TO OUR NEWSLETTER FOR THE LATEST BEER, NEWS, EVENTS AND MORE</Typography>
+                    <Typography className="footersignuptext" variant="body2" color="textSecondary">SIGN UP TO OUR NEWSLETTER TO GET THE LASTEST NEWS!</Typography>
                 </Container>
                 <Container className="containersignuptext">
                     <TextField id="outlined-basic" label="Enter Your Email Address" variant="outlined" className="signuptextfield" />
-                    <Button variant="contained" className="signupbutton">Contained</Button>
+                </Container>
+                <Container className="containersignuptext2">
+                    <Button variant="contained" className="signupbutton">Sign Up!</Button>
                 </Container>
             </Container>
             <Container className="footermenucontainer">

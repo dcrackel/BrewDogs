@@ -333,17 +333,24 @@ a {
 }
 
 .containersignuptext {
+  display: block;
+  width: 100% !important;
+}
 
+.containersignuptext2 {
+  display: block;
+  width: 50% !important;
 }
 
 .signuptextfield{
   border-radius: 0px !important;
   background-color: #ffffff;
-  width: 60%;
+  width: 100%;
+  margin: 0px !important;
 }
 
 .signupbutton{
-  margin: 2px 0px 0px 10px !important;
+  margin: 2px 0px 0px 0px !important;
   border-radius: 0px !important;
   background-color: #7861E1 !important;
   color: #ffffff !important;
@@ -354,8 +361,8 @@ a {
 {
   font-family: "NewGrotesk" !important;
   font-size: 20pt !important;
-  margin: 10px 0px 0px 0px !important;
-  align-items: center;
+  align-items: end;
+  margin: 10px auto 0px 0px !important;
 
 }
 
